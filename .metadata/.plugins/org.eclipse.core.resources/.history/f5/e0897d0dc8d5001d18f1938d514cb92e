@@ -1,0 +1,26 @@
+package com.java;
+public class ComplexNumber {
+ int real_num;
+ float imag_num;
+	
+	ComplexNumber(int r_num, int i_num){
+		real_num = r_num;
+		imag_num = i_num;
+	}
+	ComplexNumber(int r_num){
+		real_num = r_num;
+		imag_num = 0;
+	}
+	ComplexNumber(float i_num){
+		imag_num = i_num;
+		real_num = 0;
+	}
+	
+	public double add() {
+		
+	}
+	
+	public double multiply() {
+		
+	}
+}

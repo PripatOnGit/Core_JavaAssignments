@@ -1,0 +1,35 @@
+package com.java;
+
+public class ComplexNumber {
+ int real_num;
+ float imag_num;
+	
+	ComplexNumber(int r_num, int i_num){
+		
+		real_num = r_num;
+		imag_num = i_num;
+	}
+	ComplexNumber(int r_num){
+		
+		real_num = r_num;
+		imag_num = 0;
+	}
+	ComplexNumber(float i_num){
+		imag_num = i_num;
+		real_num = 0;
+	}
+	public void createComplexNumber() {
+		 System.out.println("The Complex Number is: "+this.real_num+"+"+"i"+this.imag_num);
+	}
+	
+//	public static ComplexNumber add(ComplexNumber n1, ComplexNumber n2) {
+//		
+//	}
+	public static void main(String[] args) {
+		ComplexNumber c1 = new ComplexNumber(2,2);
+		//ComplexNumber.add(c1, c1);
+		c1.createComplexNumber();
+		ComplexNumber c2 = new ComplexNumber(2.0);
+		
+	}
+}

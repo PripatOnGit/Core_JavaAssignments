@@ -1,0 +1,26 @@
+package com.java;
+
+import java.util.Scanner;
+
+public class Stack {
+	int[] arr;
+	
+	Stack(int size) {
+		arr = new int[size];
+	}
+	
+	public void printStack() {
+		
+	}
+	
+	public void pushToStack() {
+		
+	}
+	
+	public void popFromStack() {
+		
+	}
+	
+	
+	
+}

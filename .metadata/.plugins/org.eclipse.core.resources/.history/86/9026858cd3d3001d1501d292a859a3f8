@@ -1,0 +1,33 @@
+package com.java;
+
+
+class Stack {
+	int[] arr;
+	int top = 0; 
+	
+	Stack(int size) {
+		arr = new int[size];
+	}
+	
+	public void printStack() {
+		System.err.println("Elements in array!!");
+		for(int i=0; i<top; i++) {			
+			System.err.println(arr[i]);
+		}
+	}
+	
+	public void pushToStack(int num) {				 
+		arr[top] = num;
+		top++;
+		}
+	
+	public int pop() {
+		arr[top] = 0;
+		top--;
+		System.out.println("Pop Element: "+arr[top]);
+		return arr[top];
+	}
+	
+	public static void main(String[] args) {}
+	
+}

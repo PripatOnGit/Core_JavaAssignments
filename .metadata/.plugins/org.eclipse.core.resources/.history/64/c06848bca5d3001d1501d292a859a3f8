@@ -1,0 +1,9 @@
+package com.bankDomain;
+
+public class Bank {
+		public static void main(String[] args) {
+			AccountManager am = new AccountManager();
+			BankAccount ba1 = new BankAccount(1, 1000, "Priyanka");
+			am.createAccount(ba);
+		}
+}

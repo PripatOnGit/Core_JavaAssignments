@@ -1,0 +1,31 @@
+package com.java;
+
+import java.util.Scanner;
+
+public class Stack {
+	int[] arr = new int[5];
+	
+	Stack() {
+		arr = new int[]{0, 0, 0,0, 0};
+	}
+	
+	public void printStack() {
+		
+	}
+	
+	public void pushToStack() {
+		
+	}
+	
+	public void popFromStack() {
+		
+	}
+	
+	public static void main(String[] args) {
+		Stack s = new Stack();
+		Scanner sc = new Scanner(System.in);
+		int num = sc.nextInt();
+		System.out.println("Enter 5 elements in array");
+		
+	}
+}

@@ -1,0 +1,28 @@
+package com.bankDomain;
+
+public class AccountManager {
+		int[] bankAccount = new int[10];
+		int acc = 0;
+		AccountManager() {}
+		
+		public void createAccount(BankAccount ba) {
+			System.out.println("Account Created!! Account Number: "+ba.accountNumber+", Balance: "+ba.balance+
+					", Owner Name: "+ba.ownerName);
+			
+			}
+		public void deleteAccount() {
+			
+		}
+		
+		public void depositeAmount() {
+			
+		}
+		public void withdrawAmount() {
+			
+		}
+		
+		public void showDetails() {
+			 
+		}
+		
+}

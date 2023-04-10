@@ -1,0 +1,27 @@
+package com.java;
+
+
+public class Stack {
+	int[] arr;
+	
+	Stack(int size) {
+		arr = new int[size];
+	}
+	
+	public void printStack() {
+		
+	}
+	
+	public void pushToStack(int num) {
+		int top = 0;
+		arr[top] = num;
+		top++;
+	}
+	
+	public void popFromStack() {
+		
+	}
+	
+	
+	
+}

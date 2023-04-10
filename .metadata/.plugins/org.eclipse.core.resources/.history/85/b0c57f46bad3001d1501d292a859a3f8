@@ -1,0 +1,40 @@
+package com.bankDomain;
+
+public class AccountManager {
+		Object[][] bankAccount = new Object[10][3];
+		int acc = 0;
+		AccountManager() {}
+		
+		public void createAccount(BankAccount ba) {  
+			System.out.println("Account Created!! Account Number: "+ba.accountNumber+", Balance: "+ba.balance+
+					", Owner Name: "+ba.ownerName);
+			++acc;
+			//System.out.println(++acc + " Accounts created!!");
+			for(int i=0; i<acc; i++) {
+			bankAccount[acc][0] = ba.accountNumber ;
+			bankAccount[acc][1] = ba.balance ;
+			bankAccount[acc][2] = ba.ownerName ;
+			}
+			System.out.println("--"+ acc);
+			}
+		public void deleteAccount() {
+			
+		}
+		
+		public void depositeAmount() {
+			
+		}
+		public void withdrawAmount() {
+			
+		}
+		
+		public void showDetails() {
+			 System.out.println("Show all Accounts:");
+			 for(int i=1; i<=acc; i++) {
+				 	System.out.println("Account Number "+ i);
+					System.out.println(bankAccount[i][0]+" "+ bankAccount[i][1]+" "+ bankAccount[i][2]);
+					System.out.println("-----------------------------------");
+				}
+		}
+		
+}

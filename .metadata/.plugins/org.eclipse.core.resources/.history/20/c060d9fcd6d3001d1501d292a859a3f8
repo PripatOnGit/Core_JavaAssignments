@@ -1,0 +1,24 @@
+package com.bankDomain;
+
+public class BankAccount {
+	int accountNumber;
+	float balance;
+	String ownerName;
+	
+	
+	BankAccount(int anum, float bal, String oName){
+		this.accountNumber = anum;
+		this.balance = bal;
+		this.ownerName = oName;
+	}
+	
+	public void deposite() {
+		
+	}
+	
+	public void withdraw() {
+		 
+	}
+	
+	
+}

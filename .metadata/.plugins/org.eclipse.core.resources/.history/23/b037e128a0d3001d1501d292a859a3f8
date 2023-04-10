@@ -1,0 +1,19 @@
+package com.java;
+import java.util.Scanner;
+
+
+public class Main {
+	public static void main(String[] args) {
+		Stack s = new Stack(5);
+		try (Scanner sc = new Scanner(System.in)) {
+			System.out.println("Enter 5 elements in array");
+			//int num = sc.nextInt();			
+			s.pushToStack(1);
+			s.pushToStack(2);
+			s.pushToStack(3);
+			
+			s.pop();
+			s.printStack();
+		}
+	}
+}

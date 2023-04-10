@@ -1,0 +1,33 @@
+package com.bankDomain;
+
+public class AccountManager {
+		BankAccount[] bankAccount = new BankAccount[10];		
+		AccountManager() {}
+		
+		public void createAccount(BankAccount ba) {  
+			System.out.println("Account Created!!");
+			ba.showDetails();()
+			int size = bankAccount.length;
+			bankAccount[size+1] = ba;
+		}
+		
+		public void deleteAccount() {
+			
+		}
+		
+		public void depositeAmount() {
+			
+		}
+		public void withdrawAmount() {
+			
+		}
+		
+		public void showDetails() {
+			 System.out.println("Show all Accounts:");
+			 for(int i=1; i<=bankAccount.length; i++) {
+				 	System.out.println("Account Number "+ i);
+					bankAccount[i].showDetails();
+				}
+		}
+		
+}

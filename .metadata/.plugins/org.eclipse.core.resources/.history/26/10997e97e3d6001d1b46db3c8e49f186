@@ -1,0 +1,23 @@
+package com.java;
+
+public class Date {
+		int day, month, year;
+		
+		Date(){
+			day = 01;
+			month = 01;
+			year = 1970;
+		}
+		Date(int day){
+			this.day = day;
+			month = 01;
+			year = 1970;
+		}
+		Date(int year){
+			year = 1970;
+		}
+		Date(){
+//	
+//		}
+		
+}

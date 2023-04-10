@@ -1,0 +1,27 @@
+package com.java;
+
+import java.nio.file.spi.FileSystemProvider;
+
+public class ComplexNumber {
+ int real_num;
+ float imag_num;
+	
+	ComplexNumber(int r_num, int i_num){
+		System.out.println("complex num");
+		real_num = r_num;
+		imag_num = i_num;
+	}
+	ComplexNumber(int r_num){
+		System.out.println("Real nuber");
+		real_num = r_num;
+		imag_num = 0;
+	}
+	ComplexNumber(float i_num){
+		imag_num = i_num;
+		real_num = 0;
+	}
+	
+	public static void main(String[] args) {
+		ComplexNumber c1 = new ComplexNumber(2,2);
+	}
+}

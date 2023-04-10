@@ -1,0 +1,23 @@
+
+public class ComplexNumber {
+ double real_num;
+ double imag_num;
+	
+	ComplexNumber(){
+		
+	}
+	ComplexNumber(){
+		
+	}
+	ComplexNumber(){
+		
+	}
+	
+	public double add() {
+		
+	}
+	
+	public double multiply() {
+		
+	}
+}
